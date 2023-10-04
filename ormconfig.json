@@ -1,0 +1,10 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "priya@123",
+    "database":"apolloql",
+    "entities":["../projectql/src/entities"],
+    "migrations":["./src/migration/*.ts"]
+}
